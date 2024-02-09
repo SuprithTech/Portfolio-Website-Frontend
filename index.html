@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suprith Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/ec527d91f6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                <span id="s">S</span>
+                <span id="u">uprith.</span>
+            </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p id="job1">Software Developer & Web Designer</p>
+                <h1>Hi, I'm <span>Suprith T </span><br>From Karanataka,India</h1>
+            </div>
+       
+    </div>
+    </div>
+<!-- ---------------------about---------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                
+                <img src="./websitephoto.jpeg" alt="" id="photo1">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1> <br>
+                <h2> Developer & Designer</h2><br>
+                  
+                <p> I am a Software developer and front end developer.I can provide 
+                    clean code and pixel perfect design.I also make the website More interactive with web animations.
+                    A responsive design makes your website accessible to all users,regardless of the device. Now
+                    Looking for a best profession where I can increase my knowledge and build a good carrier path 
+                </p>
+                       
+            <div class="tab-titles">
+               <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+               <p class="tab-links" onclick="opentab('experience')">Projects</p>
+               <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Backend</span><br>Java</li>
+                    <li><span>Frontend</span><br>HTML,CSS,Javascript</li>
+                    <li><span>Database</span><br>MYSQL</li>
+
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Portfolio-Website</span><br>HTML,CSS,Javascript,Bootstrap</li>
+                    <li><span>Hospital_Management_System</span><br>Java,MYSQL,API,JDBC</li>
+                    <li><span>E-Commerce-Website</span><br>HTML,CSS,Javascript,Bootstrap</li>
+                    <li><span>Tic-Tac-Toe</span><br>Java</li>
+
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>B.E (ECE)- 2023</span><br>NIE Institute of technology, Mysore</li>
+                    <li><span>PUC (PCMB) - 2019</span><br>Sri Adichunchanagiri pu collage, Shimoga</li>
+                    <li><span>SSLC - 2017</span><br>BGS Residential School, Shimoga</li>
+
+                </ul>
+            </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- ---------------------------------SERVICES-------------------------------------------------------------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. it eveniet, rDignissimos debitis ex harum? Dolorem perferendis rerum totam quas eo
+                    s iure dignissimos provident velecusandae itaque sed voluptate quam vel repellendus.</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Backend Developer</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos debitis ex harum? Dolorem perferendis rerum totam quas eo
+                    s iure dignissimos provident velit eveniet, recusandae itaque sed voluptate quam vel repellendus.</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Database Developer</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos debitis ex harum? Dolorem perferendis rerum totam quas eo
+                    s iure dignissimos provident velit eveniet, recusandae itaque sed voluptate quam vel repellendus.</p>
+                    <a href="#">Learn More</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- ---------------------PORTFOLIO------------------------------------------------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./work-1.png" >
+                <div class="layer">
+                    <h3>Tic-Tac-Toe Game</h3>
+                    <p>
+                        This game is Comletley build up of Java,The game begins with an empty grid, and 
+                        the first player, traditionally using ‘X,’ 
+                        starts by placing their symbol in any 
+                        vacant cell. The second player is AI using 
+                        ‘O,’ then makes automatic move, and the 
+                        turns continue to alternate until a winner is 
+                        declared or a draw is reached.
+                         </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="./work-2.png" >
+                <div class="layer">
+                    <h3>Hospital Management System</h3>
+                    <p>This project maintains doctor and 
+                        patient’s information within the system.
+                        It is a API based Project in which JDBC 
+                        concepts has been used.
+                        Using this project we can book the 
+                        appointments and we can check the 
+                        doctor availability for specific dates.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./work-3.png" >
+                <div class="layer">
+                    <h3>E-Commerce Website</h3>
+                    <p>This Ecommerce Website’s name will be 
+                        Redstore which will be completely 
+                        Responsive for mobile screen and pc.
+                        This website contains products page, 
+                        shopping cart page, login and registration 
+                        page …etc like other present Ecommerce 
+                        websites. Testimonials and top brand 
+                        sections have been used using html, css, 
+                        Bootstrap.
+                        </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- -----------------------------------------------------------contact---------------------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>  suprith.t2000@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>  9353740234</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/supritht412"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./Fresher_2023_BE-ECE_Suprith.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright  <i class="fa-regular fa-copyright"></i> Suprith. Made with <i class="fa-solid fa-heart" id="heart"></i></p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- ----------------------------------------------------------------------------------------------------------------------------------- -->
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxZ05Ld3Gy7zmr6VvCrG1tkKqC-1ZN6poMKpohrQj8ca1p45r_BEwWX_G0Y4ibKE-r9/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
